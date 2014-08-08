@@ -16,8 +16,11 @@ You should wrap your entire partial file in a `div` with the id/class tag of you
 We are using SASS for CSS and Coffeescript for JS. You may use `.haml` or `.erb`
 
 JS/Coffee will go in the /javascripts folder.
+
 CSS/SASS will go in the /stylesheets folder.
+
 Images will go in the /images folder.
+
 JSON objects will go in the /data folder.
 
 
