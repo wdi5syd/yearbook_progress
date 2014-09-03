@@ -3,8 +3,8 @@ $(document).ready ->
 
 
   # This is for clicking a student and opening the profile page
-  $showdiv = $("<section id='verbose-show'>")
   $('.student').on 'click', ->
+    $showdiv = $("<section id='verbose-show'>")
     $verbose = $(@).find('.verbose')
     $verbose.toggleClass('invisible')
     $showdiv.append( $verbose )
@@ -13,7 +13,8 @@ $(document).ready ->
     $('nav').addClass('blur')
 
     $showdiv.on 'click', =>
-      $('#verbose-show').addClass('slice-close')
+      # $('#verbose-show').addClass('slice-close')
+      $showdiv.fadeOut(400)
       setTimeout =>
         $(@).append( $verbose )
         $verbose.toggleClass('invisible')
