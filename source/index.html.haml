@@ -8,7 +8,6 @@
 /   = partial 'partial/curriculum'
 
 %div.students
-= data.inspect
 
 %div.footer
 
@@ -17,21 +16,21 @@
 
 // Subjects we learned
 %script#subjects{:type => 'text/template'}
-  -# - data.curriculum.subjects.each do |subject|
-  -#   %div.subject
-  -#     %img{:src => lorem.image('200x200'), :alt => ""}/
-  -#     %h2= subject.title
-  -#     %p {{ summary }}
+  - data.subjects.each do |subject|
+    %div.subject
+      %img{:src => lorem.image('200x200'), :alt => ""}/
+      %h2= subject.title
+      %p= subject.summary
 
 
 // Short version of student profiles
 %script#students-terse{:type => 'text/template'}
-  {{#each students}}
-  %div.student
-    %img{:src => lorem.image('200x200'), :alt => ""}/
-    %h2 {{ title }}
-    %p {{ role }}
-  {{/each}}
+  - data.students.each do |student|
+    %div.student
+      %img{:src => lorem.image('200x200'), :alt => ""}/
+      %h2 student.name
+      %p student.role
+
 
 
 // Long version of student profiles

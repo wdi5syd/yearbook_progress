@@ -1,5 +1,4 @@
-{
- "subjects": [
+[
     {
       "title": "Ruby on Rails",
       "summary": "This is awesome lala",
@@ -7,4 +6,3 @@
     }
 
   ]
-}
