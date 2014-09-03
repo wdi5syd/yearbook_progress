@@ -27,7 +27,21 @@
         "ros.skinner@gmail.com"
     ],
     "shortname": "ros"
-}
+  },
+  {
+    "name": "Larlyn Tanasap",
+    "bio": "Nerd since birth, graphic designer now developer.",
+    "role": "Full stack web Developer",
+    "image": "images/larlyn.jpg",
+    "quote": "",
+    "links":[
+      "http://lyntco.github.io/",
+      "http://github.com/lyntco",
+      "http://blog.lynt.co",
+      "http://twitter.com/strawz"
+    ],
+    "shortname": "larlyn"
+  }
 
 
 ]

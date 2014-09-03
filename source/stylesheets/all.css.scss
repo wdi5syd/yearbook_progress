@@ -9,6 +9,10 @@ body {
   text-align: center;
   font-family: sans-serif; }
 
+section {
+  height: 100vh;
+}
+
 h1 {
   color: rgba(0, 0, 0, .3);
   font-weight: bold;
@@ -19,6 +23,7 @@ h1 {
   background: url("../images/middleman.png") no-repeat center 100px;
   padding: 350px 0 10px;
   margin: 0; }
+
 
 .invisible {
   display: none;
