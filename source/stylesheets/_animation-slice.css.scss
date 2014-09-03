@@ -7,8 +7,8 @@
     top: 50%
   }
   100% {
-    height: 100vh;
-    top: 0
+    height: 80vh;
+    top: 5%
   }
 }
 
@@ -18,9 +18,34 @@
     top: 50%
   }
   100% {
-    height: 100vh;
-    top: 0
+    height: 80vh;
+    top: 5%
   }
 }
 
+.slice-close {
+  -webkit-animation: slice-close 200ms ease both;
+  animation: slice-close 200ms ease both;
+}
 
+@-webkit-keyframes slice-close {
+  0% {
+    height: 0vh;
+    top: 50%
+  }
+  100% {
+    height: 80vh;
+    top: 5%
+  }
+}
+
+@keyframes slice-close {
+  0% {
+    height: 0vh;
+    top: 50%
+  }
+  100% {
+    height: 80vh;
+    top: 5%
+  }
+}
