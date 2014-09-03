@@ -61,7 +61,7 @@ section {
       margin: .2em;
     }
     .verbose {
-      // overflow: hidden;
+      overflow: hidden;
       height: 100%;
       width: 100%;
     }
@@ -76,6 +76,7 @@ section {
   top: 0;
   left: 0;
   z-index: 100;
+  overflow: hidden;
   -webkit-animation: slice 400ms ease both;
   animation: slice 400ms ease both;
   background-color: rgba(250,240,250,.5)
