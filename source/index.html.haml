@@ -1,43 +1,13 @@
 %div.landing
   = partial 'partial/landing'
 
-/ %div.overview
-/   = partial 'partial/overview'
+%div.overview
+  = partial 'partial/overview'
 
 %div.curriculum
-/   = partial 'partial/curriculum'
+  = partial 'partial/curriculum'
 
 %div.students
+  = partial 'partial/students'
 
 %div.footer
-
-// ------------------------------
-// TEMPLATES GO HERE
-
-// Subjects we learned
-%script#subjects{:type => 'text/template'}
-  - data.subjects.each do |subject|
-    %div.subject
-      %img{:src => lorem.image('200x200'), :alt => ""}/
-      %h2= subject.title
-      %p= subject.summary
-
-
-// Short version of student profiles
-%script#students-terse{:type => 'text/template'}
-  - data.students.each do |student|
-    %div.student
-      %img{:src => lorem.image('200x200'), :alt => ""}/
-      %h2 student.name
-      %p student.role
-
-
-
-// Long version of student profiles
-%script#student-verbose{:type => 'text/template'}
-  %div.student-verbose
-    %img{:src => lorem.image('200x200'), :alt => ""}/
-    %h2 {{ name }}
-    %p {{ role }}
-    %p {{ bio }}
-    %h3 {{ quote }}

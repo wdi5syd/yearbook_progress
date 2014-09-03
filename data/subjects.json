@@ -3,6 +3,17 @@
       "title": "Ruby on Rails",
       "summary": "This is awesome lala",
       "image": "images/ruby.jpg"
+    },
+    {
+      "title": "Javascript MVC",
+      "summary": "Backboned",
+      "image": "images/javascript.jpg"
+    },
+    {
+      "title": "Other cool things",
+      "summary": "How to karaoke",
+      "image": "images/javascript.jpg"
     }
+
 
   ]

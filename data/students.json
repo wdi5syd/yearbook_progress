@@ -8,7 +8,8 @@
     "links":[
       "http://github.com/rirachoi",
       "http://others"
-    ]
+    ],
+    "shortname": "rira"
   },
   {
     "name": "Rosalind Skinner",
@@ -24,7 +25,8 @@
         "http: //roscodes.blogspot.com.au/",
         "http: //www.youtube.com/playlist?list=PLE7JseOGEln3WaVHb4gb3kG3AMVFKd1fI",
         "ros.skinner@gmail.com"
-    ]
+    ],
+    "shortname": "ros"
 }
 
 
