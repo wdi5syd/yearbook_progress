@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Rira Choi",
+    "bio": "I was in economics but now I love coding",
+    "role": "Full stack web Developer",
+    "image": "images/rira.jpg",
+    "quote": "Should this be inside of Lee(<li>)?",
+    "links":[
+      "http://github.com/rirachoi",
+      "http://others"
+    ]
+  },
+  {
+    "name": "Rosalind Skinner",
+    "bio": "Hi! My name is Rosalind Skinner. I am a full-stack web developer. I’m passionate about innovation in technology and creative web applications. I’m seeking a role where I can learn and grow as a front-end web developer. Recently undertook the Web Development Immersive course at General Assembly. I'm really interested in how the web integrates with innovation in technology. The web has omnipresence and it makes sense that it grows and fully engages with technology. My aim really, is to make some cool shit. Web development satiates my appetite to be creative whilst also adhering to my logical, problem solving side. Creative Nerd?",
+    "role": "Full Stack Web Developer",
+    "image": "images/ros.jpg",
+    "quote": "",
+    "links": [
+        "http: //rosskinner.github.io",
+        "http: //github.com/rosskinner",
+        "http: //www.linkedin.com/pub/rosalind-skinner/9a/521/633",
+        "https: //twitter.com/rosskinner",
+        "http: //roscodes.blogspot.com.au/",
+        "http: //www.youtube.com/playlist?list=PLE7JseOGEln3WaVHb4gb3kG3AMVFKd1fI",
+        "ros.skinner@gmail.com"
+    ]
+}
+
+
+]

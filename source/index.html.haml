@@ -1,0 +1,44 @@
+%div.landing
+  = partial 'partial/landing'
+
+/ %div.overview
+/   = partial 'partial/overview'
+
+%div.curriculum
+/   = partial 'partial/curriculum'
+
+%div.students
+= data.inspect
+
+%div.footer
+
+// ------------------------------
+// TEMPLATES GO HERE
+
+// Subjects we learned
+%script#subjects{:type => 'text/template'}
+  -# - data.curriculum.subjects.each do |subject|
+  -#   %div.subject
+  -#     %img{:src => lorem.image('200x200'), :alt => ""}/
+  -#     %h2= subject.title
+  -#     %p {{ summary }}
+
+
+// Short version of student profiles
+%script#students-terse{:type => 'text/template'}
+  {{#each students}}
+  %div.student
+    %img{:src => lorem.image('200x200'), :alt => ""}/
+    %h2 {{ title }}
+    %p {{ role }}
+  {{/each}}
+
+
+// Long version of student profiles
+%script#student-verbose{:type => 'text/template'}
+  %div.student-verbose
+    %img{:src => lorem.image('200x200'), :alt => ""}/
+    %h2 {{ name }}
+    %p {{ role }}
+    %p {{ bio }}
+    %h3 {{ quote }}

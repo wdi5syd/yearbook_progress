@@ -2,6 +2,10 @@
 
 WDI5 Yearbook using [Middleman](http://middlemanapp.com/basics/getting-started/).
 
+Clone this repo, and don't forget to run `bundle install`!
+
+
+
 ## Workflow
 Please work in your partial files, and add `= partial "/partial/my_partial"` into index.haml where `_my_partial.haml` or `my_partial.html.erb` is your partial file name **with an underscore at the start**, and it is inside the /partial folder.
 
