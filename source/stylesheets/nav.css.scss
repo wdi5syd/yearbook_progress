@@ -3,21 +3,25 @@
 // Comprende?!
 nav {
   position: fixed;
+  top: 0;
+  left: 0;
 }
 
 nav h3{
   text-align: left;
+  display: inline-block;
 }
 
 nav img{
   height: 50px;
   width: 50px;
-
+  display: inline-block;
 }
 
 nav ul{
   list-style: none;
   padding: 0;
+  display: inline-block;
 }
 
 nav li{
