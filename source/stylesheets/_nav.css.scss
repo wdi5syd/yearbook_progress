@@ -1,0 +1,35 @@
+// NAV SHIT
+// Fuck with this and you will be killed..
+// Comprende?!
+
+// nest your damn scss
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  h3{
+    text-align: left;
+    display: inline-block;
+  }
+
+  img{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+  }
+  li{
+    display: inline-block;
+    padding-left: .25em;
+    padding-right: .25em;
+    font-size: 20px;
+  }
+}
+
+
+

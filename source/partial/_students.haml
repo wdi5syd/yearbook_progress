@@ -1,15 +1,16 @@
-- data.students.each do |student|
+- data.students.shuffle.each do |student|
   %div.student
     %img{:src => lorem.image('100x100'), :alt => ""}/
-    %h2= student.name
-    %p= student.role
+    %h4= student.name
+    //%p= student.role
 
     %div.verbose.invisible{:class => student.shortname}
       %img{:src => lorem.image('200x200'), :alt => ""}/
-      %h2= student.name
+      %h4= student.name
       %p= student.role
       %p= student.bio
-      %h3= student.quote.html_safe
+      %h3= student.quote
       %ul
-        - student.links.each do |link|
-          %li= link
+        - if student.links
+          - student.links.each do |link|
+            %li= link
