@@ -4,12 +4,10 @@
     "bio": "I was in economics but now I love coding",
     "role": "Full stack web Developer",
     "image": "images/rira.jpg",
-    "quote": "Should this be inside of Lee(<li>)?",
+    "quote": "Should this be inside of Lee('li')?",
     "links":[
-      "http://github.com/rirachoi",
-      "http://others"
-    ],
-    "shortname": "rira"
+      {"title": "github","url":"http://github.com/rirachoi"}
+    ]
   },
   {
     "name": "Rosalind Skinner",
@@ -18,29 +16,27 @@
     "image": "images/ros.jpg",
     "quote": "",
     "links": [
-        "http: //rosskinner.github.io",
-        "http: //github.com/rosskinner",
-        "http: //www.linkedin.com/pub/rosalind-skinner/9a/521/633",
-        "https: //twitter.com/rosskinner",
-        "http: //roscodes.blogspot.com.au/",
-        "http: //www.youtube.com/playlist?list=PLE7JseOGEln3WaVHb4gb3kG3AMVFKd1fI",
-        "ros.skinner@gmail.com"
-    ],
-    "shortname": "ros"
+        {"title": "portfolio","url":"http://rosskinner.github.io"},
+        {"title": "github","url":"http://github.com/rosskinner"},
+        {"title": "linkedin","url":"http://www.linkedin.com/pub/rosalind-skinner/9a/521/633"},
+        {"title": "twitter","url":"https://twitter.com/rosskinner"},
+        {"title": "blog","url":"http://roscodes.blogspot.com.au/"},
+        {"title": "youtube","url":"http://www.youtube.com/playlist?list=PLE7JseOGEln3WaVHb4gb3kG3AMVFKd1fI"},
+        {"title": "email","url":"ros.skinner@gmail.com"}
+    ]
   },
   {
     "name": "Larlyn Tanasap",
-    "bio": "Nerd since birth, graphic designer now developer.",
+    "bio": "Nerding up the world since '89, graphic designer now developer. Always been dabbling in web since '98, took the leap to GA WDI to really get up to speed with the modern web.",
     "role": "Full stack web Developer",
     "image": "images/larlyn.jpg",
     "quote": "",
     "links":[
-      "http://lyntco.github.io/",
-      "http://github.com/lyntco",
-      "http://blog.lynt.co",
-      "http://twitter.com/strawz"
-    ],
-    "shortname": "larlyn"
+      {"title": "portfolio","url":"http://lyntco.github.io/"},
+      {"title": "github","url":"http://github.com/lyntco"},
+      {"title": "blog","url":"http://blog.lynt.co"},
+      {"title": "twitter","url":"http://twitter.com/strawz"}
+    ]
   },
   {
     "name": "Allen Hsu",
@@ -122,14 +118,17 @@
     "quote": "",
     "links": []
     },
-  {
-    "name": "Victerry So",
-    "bio": "",
-    "role": "",
-    "image": "",
-    "quote": "",
-    "links": []
-  }
+    {
+      "name": "Victerry So",
+      "bio": "Former Engineer, Current Developer, Future Something",
+      "role": "Mister Web Developer",
+      "image": "images/terry.jpg",
+      "quote": "I got it!",
+      "links": [
+        {"title":"portfolio", "url":"http://victerryso.github.io"},
+        {"title":"github", "url":"http://github.com/victerryso"},
+        {"title":"email", "url":"victerryso@gmail.com"}]
+    }
 
 
 ]

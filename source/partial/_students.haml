@@ -13,4 +13,5 @@
       %ul
         - if student.links
           - student.links.each do |link|
-            %li= link
+            %li
+              %a{:href => link.url}= link.title
